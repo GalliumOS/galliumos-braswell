@@ -1,0 +1,18 @@
+Source: galliumos-braswell
+Section: admin
+Priority: required
+Maintainer: reynhout <reynhout@galliumos.org>
+XSBC-Original-Maintainer: reynhout <reynhout@galliumos.org>
+Standards-Version: 3.9.1
+
+Package: galliumos-braswell
+Architecture: all
+Priority: required
+#Depends: galliumos-base
+Depends: galliumos-baytrail
+Provides: galliumos-device
+#Conflicts: galliumos-haswell, galliumos-sandy, galliumos-baytrail, galliumos-broadwell, galliumos-skylake
+Conflicts: galliumos-haswell, galliumos-sandy, galliumos-broadwell, galliumos-skylake
+Replaces: galliumos-haswell, galliumos-sandy, galliumos-baytrail, galliumos-broadwell, galliumos-braswell
+Description: GalliumOS Braswell customizations
+ This package contains Braswell-specific files for GalliumOS

@@ -1,0 +1,7 @@
+galliumos-braswell (2.0.0) xenon; urgency=medium
+
+  * Initial Braswell package
+    - Depends on galliumos-baytrail
+    - Currently adds no new config
+
+ -- reynhout <reynhout@galliumos.org>  Sun, 02 Oct 2016 19:17:02 +0000
