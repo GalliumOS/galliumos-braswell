@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#Disable asynchronous device suspend
+#Should fix https://github.com/GalliumOS/galliumos-distro/issues/192
+
+echo 0 > /sys/power/pm_async

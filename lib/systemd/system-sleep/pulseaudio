@@ -1,0 +1,8 @@
+#!/bin/bash
+
+case $1/$2 in
+    post/*)
+	/usr/bin/pasuspender /bin/true
+	;;
+esac
+exit 0

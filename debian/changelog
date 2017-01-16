@@ -1,3 +1,12 @@
+galliumos-braswell (2.0.1) xenon; urgency=medium
+
+  * Remove dependency on galliumos-baytrail
+    - Bring over required pieces
+  * Add modprobe config for chtrt5650
+  * Add UCM config for chtrt5650
+
+ -- reynhout <reynhout@galliumos.org>  Mon, 16 Jan 2017 19:33:33 +0000
+
 galliumos-braswell (2.0.0) xenon; urgency=medium
 
   * Initial Braswell package

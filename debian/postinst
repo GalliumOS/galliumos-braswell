@@ -1,0 +1,14 @@
+#!/bin/bash
+#
+# galliumos-braswell postinst
+#
+
+## PulseAudio manipulations. This might no longer be needed?
+
+systemctl daemon-reload
+systemctl unmask galliumos-braswell
+systemctl enable galliumos-braswell
+systemctl start galliumos-braswell
+alsactl restore
+
+exit 0

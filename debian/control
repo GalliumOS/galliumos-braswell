@@ -8,11 +8,9 @@ Standards-Version: 3.9.1
 Package: galliumos-braswell
 Architecture: all
 Priority: required
-#Depends: galliumos-base
-Depends: galliumos-baytrail
+Depends: galliumos-base
 Provides: galliumos-device
-#Conflicts: galliumos-haswell, galliumos-sandy, galliumos-baytrail, galliumos-broadwell, galliumos-skylake
-Conflicts: galliumos-haswell, galliumos-sandy, galliumos-broadwell, galliumos-skylake
-Replaces: galliumos-haswell, galliumos-sandy, galliumos-baytrail, galliumos-broadwell, galliumos-braswell
+Conflicts: galliumos-sandy, galliumos-haswell, galliumos-broadwell, galliumos-baytrail, galliumos-skylake, galliumos-samus
+Replaces: pulseaudio, galliumos-baytrail
 Description: GalliumOS Braswell customizations
  This package contains Braswell-specific files for GalliumOS

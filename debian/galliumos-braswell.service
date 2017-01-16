@@ -1,0 +1,10 @@
+[Unit]
+Description=GalliumOS system customization for Braswell models
+
+[Service]
+ExecStart=/usr/bin/init-braswell-settings
+Type=oneshot
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target
