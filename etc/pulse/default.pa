@@ -160,5 +160,7 @@ load-module module-filter-apply
 #.endif
 
 ### Make some devices default
-#set-default-sink alsa_output.platform-byt-max98090.analog-stereo
-#set-default-source input
+set-default-sink alsa_output.platform-cht-bsw-rt5645.HiFi__hw_chtrt5650__sink
+set-sink-port alsa_output.platform-cht-bsw-rt5645.HiFi__hw_chtrt5650__sink [Out] Speaker
+
+set-default-source alsa_input.platform-cht-bsw-rt5645.HiFi__hw_chtrt5650__source

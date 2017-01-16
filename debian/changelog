@@ -1,3 +1,11 @@
+galliumos-braswell (2.0.3) xenon; urgency=medium
+
+  * Update /etc/pulse/default.pa for cht-bsw-rt5645
+    - set default source and sink to rt5645
+    - select speaker port of default sink
+
+ -- reynhout <reynhout@galliumos.org>  Mon, 16 Jan 2017 23:21:06 +0000
+
 galliumos-braswell (2.0.2) xenon; urgency=medium
 
   * Add dependency on linux-image-galliumos-braswell
