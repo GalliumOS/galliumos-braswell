@@ -8,7 +8,7 @@ Standards-Version: 3.9.1
 Package: galliumos-braswell
 Architecture: all
 Priority: required
-Depends: galliumos-base
+Depends: galliumos-base, linux-image-galliumos-braswell
 Provides: galliumos-device
 Conflicts: galliumos-sandy, galliumos-haswell, galliumos-broadwell, galliumos-baytrail, galliumos-skylake, galliumos-samus
 Replaces: pulseaudio, galliumos-baytrail

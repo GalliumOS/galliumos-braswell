@@ -1,3 +1,10 @@
+galliumos-braswell (2.0.2) xenon; urgency=medium
+
+  * Add dependency on linux-image-galliumos-braswell
+  * Minor fixes
+
+ -- reynhout <reynhout@galliumos.org>  Mon, 16 Jan 2017 20:03:04 +0000
+
 galliumos-braswell (2.0.1) xenon; urgency=medium
 
   * Remove dependency on galliumos-baytrail
