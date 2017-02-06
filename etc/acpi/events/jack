@@ -1,0 +1,14 @@
+# /etc/acpi/events/jack
+#
+
+# We want:
+#  jack/headphone HEADPHONE plug
+#  jack/microphone MICROPHONE plug
+#  jack/headphone HEADPHONE unplug
+#  jack/microphone MICROPHONE unplug
+# and possibly
+#  jack/lineout LINEOUT plug
+#  jack/lineout LINEOUT unplug
+
+event=jack/(headphone|microphone|lineout)
+action=/etc/acpi/jack.sh %e

@@ -1,3 +1,9 @@
+galliumos-braswell (2.0.5) xenon; urgency=medium
+
+  * add ACPI headphone jack detection, and script to perform the needful
+
+ -- reynhout <reynhout@galliumos.org>  Mon, 06 Feb 2017 02:08:35 +0000
+
 galliumos-braswell (2.0.4) xenon; urgency=medium
 
   * update default.pa to ignore failures in card/port setup so that
