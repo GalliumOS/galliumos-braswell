@@ -160,8 +160,24 @@ load-module module-filter-apply
 #.endif
 
 ### Make some devices default
-.nofail
-set-default-sink alsa_output.platform-cht-bsw-rt5645.HiFi__hw_chtrt5650__sink
-set-sink-port alsa_output.platform-cht-bsw-rt5645.HiFi__hw_chtrt5650__sink [Out] Speaker
+#set-default-sink output
+#set-default-source input
 
+
+### GalliumOS
+
+.nofail
+
+## Braswell-generic
+.ifexists /sys/devices/platform/808622A8:00/cht-bsw-rt5645
+set-default-sink   alsa_output.platform-cht-bsw-rt5645.HiFi__hw_chtrt5650__sink
+set-sink-port      alsa_output.platform-cht-bsw-rt5645.HiFi__hw_chtrt5650__sink [Out] Speaker
 set-default-source alsa_input.platform-cht-bsw-rt5645.HiFi__hw_chtrt5650__source
+.endif
+
+## Braswell-CYAN
+.ifexists /sys/devices/platform/808622A8:00/cht-bsw-max98090
+set-default-sink   alsa_output.platform-cht-bsw-max98090.analog-stereo
+set-sink-port      alsa_output.platform-cht-bsw-max98090.analog-stereo analog-output-speaker
+set-default-source alsa_input.platform-cht-bsw-max98090.analog-stereo
+.endif
