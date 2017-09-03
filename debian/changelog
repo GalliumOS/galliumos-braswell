@@ -1,3 +1,9 @@
+galliumos-braswell (2.0.7) xenon; urgency=medium
+
+  * Add default audio sink and port selection under full ROM firmware
+
+ -- reynhout <reynhout@galliumos.org>  Sun, 03 Sep 2017 21:50:21 +0000
+
 galliumos-braswell (2.0.6) xenon; urgency=medium
 
   * Add configuration for CYAN audio
