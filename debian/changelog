@@ -1,6 +1,7 @@
 galliumos-braswell (2.0.7) xenon; urgency=medium
 
   * Add default audio sink and port selection under full ROM firmware
+  * Update UCM and pulse config for new chtmax98090 config
 
  -- reynhout <reynhout@galliumos.org>  Sun, 03 Sep 2017 21:50:21 +0000
 
