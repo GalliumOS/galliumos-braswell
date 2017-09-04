@@ -186,13 +186,13 @@ set-default-source alsa_input.platform-cht-bsw-rt5645.HiFi__hw_chtrt5650__source
 ## Braswell-CYAN (Maxim MAX98090 codec)
 ## RW_LEGACY
 .ifexists /sys/devices/platform/808622A8:00/cht-bsw-max98090
-set-default-sink   alsa_output.platform-cht-bsw-max98090.analog-stereo
-set-sink-port      alsa_output.platform-cht-bsw-max98090.analog-stereo analog-output-speaker
-set-default-source alsa_input.platform-cht-bsw-max98090.analog-stereo
+set-default-sink   alsa_output.platform-cht-bsw-max98090.HiFi__hw_chtmax98090__sink
+set-sink-port      alsa_output.platform-cht-bsw-max98090.HiFi__hw_chtmax98090__sink [Out] Speakers
+set-default-source alsa_input.platform-cht-bsw-max98090.HiFi__hw_chtmax98090__source
 .endif
 ## full ROM
 .ifexists /sys/devices/pci0000:00/808622A8:00/cht-bsw-max98090
-set-default-sink   alsa_output.platform-cht-bsw-max98090.analog-stereo
-set-sink-port      alsa_output.platform-cht-bsw-max98090.analog-stereo analog-output-speaker
-set-default-source alsa_input.platform-cht-bsw-max98090.analog-stereo
+set-default-sink   alsa_output.platform-cht-bsw-max98090.HiFi__hw_chtmax98090__sink
+set-sink-port      alsa_output.platform-cht-bsw-max98090.HiFi__hw_chtmax98090__sink [Out] Speakers
+set-default-source alsa_input.platform-cht-bsw-max98090.HiFi__hw_chtmax98090__source
 .endif
