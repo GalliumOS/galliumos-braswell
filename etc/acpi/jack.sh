@@ -4,7 +4,7 @@
 #
 
 event="$*"
-PULSE_SERVER="tcp:localhost"
+export PULSE_SERVER="tcp:localhost"
 
 headphones_in() {
   pactl set-sink-port @DEFAULT_SINK@ "[Out] Headphones"
