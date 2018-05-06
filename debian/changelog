@@ -1,3 +1,9 @@
+galliumos-braswell (2.9901) bismuth; urgency=medium
+
+  * Prepare for GalliumOS 3.0
+
+ -- reynhout <reynhout@galliumos.org>  Sun, 06 May 2018 07:04:41 +0000
+
 galliumos-braswell (2.0.7) xenon; urgency=medium
 
   * Add default audio sink and port selection under full ROM firmware
