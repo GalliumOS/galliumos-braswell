@@ -1,8 +1,7 @@
 Source: galliumos-braswell
 Section: admin
 Priority: required
-Maintainer: reynhout <reynhout@galliumos.org>
-XSBC-Original-Maintainer: reynhout <reynhout@galliumos.org>
+Maintainer: GalliumOS <galliumos@galliumos.org>
 Standards-Version: 3.9.1
 
 Package: galliumos-braswell
