@@ -4,17 +4,14 @@
 #
 
 event="$*"
+export PULSE_SERVER="tcp:localhost"
 
 headphones_in() {
-  #pacmd set-sink-port "alsa_output.platform-cht-bsw-rt5645.HiFi__hw_chtrt5650__sink" "[Out] Headphones"
-  /usr/bin/amixer -c 0 cset name='Speaker Channel Switch' off
-  /usr/bin/amixer -c 0 cset name='Headphone Channel Switch' on
+  pactl set-sink-port @DEFAULT_SINK@ "[Out] Headphones"
 }
 
 headphones_out() {
-  #pacmd set-sink-port "alsa_output.platform-cht-bsw-rt5645.HiFi__hw_chtrt5650__sink" "[Out] Speaker"
-  /usr/bin/amixer -c 0 cset name='Headphone Channel Switch' off
-  /usr/bin/amixer -c 0 cset name='Speaker Channel Switch' on
+  pactl set-sink-port @DEFAULT_SINK@ "[Out] Speaker"
 }
 
 case "$event" in
