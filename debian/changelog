@@ -1,3 +1,10 @@
+galliumos-braswell (3.0) bismuth; urgency=medium
+
+  * Prepare for GalliumOS 3.0
+  * Improve jack detection (thx @bcarnes)
+
+ -- reynhout <reynhout@galliumos.org>  Sat, 29 Jun 2019 17:53:31 +0000
+
 galliumos-braswell (2.0.7) xenon; urgency=medium
 
   * Add default audio sink and port selection under full ROM firmware

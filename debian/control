@@ -1,8 +1,7 @@
 Source: galliumos-braswell
 Section: admin
 Priority: required
-Maintainer: reynhout <reynhout@galliumos.org>
-XSBC-Original-Maintainer: reynhout <reynhout@galliumos.org>
+Maintainer: GalliumOS <galliumos@galliumos.org>
 Standards-Version: 3.9.1
 
 Package: galliumos-braswell
@@ -10,7 +9,7 @@ Architecture: all
 Priority: required
 Depends: galliumos-base, linux-image-galliumos-braswell
 Provides: galliumos-device
-Conflicts: galliumos-sandy, galliumos-haswell, galliumos-broadwell, galliumos-baytrail, galliumos-skylake, galliumos-samus
-Replaces: pulseaudio, galliumos-baytrail
+Conflicts: galliumos-sandyivy, galliumos-haswell, galliumos-baytrail, galliumos-broadwell, galliumos-samus, Xgalliumos-braswell, galliumos-skylake, galliumos-apollolake, galliumos-kabylake
+Replaces: pulseaudio
 Description: GalliumOS Braswell customizations
  This package contains Braswell-specific files for GalliumOS
